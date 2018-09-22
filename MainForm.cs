@@ -20,6 +20,9 @@ namespace ForJenkinsIntegrate
         private void buttonInfo_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Проверяем сборку в Jenkins");
+
+            Calc calc = new Calc();
+            calc.Summ(5, 3);
         }
         
     }
